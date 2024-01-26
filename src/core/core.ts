@@ -220,7 +220,7 @@ class Zoomist {
     setStyle(image, {
       transform: `
         translate(var(${CSSVAR_IMAGE_TRANSLATE_X}, 0px), var(${CSSVAR_IMAGE_TRANSLATE_Y}, 0px))
-        scale(var(${CSSVAR_IMAGE_SCALE}, 0))`
+        zoom(var(${CSSVAR_IMAGE_SCALE}, 0))`
     })
 
     // define scale
