@@ -1,11 +1,12 @@
 {
-  "name": "zoomist-src",
+  "name": "@igg/zoomist",
   "version": "2.0.12",
   "description": "A TypeScript library for zooming any element. Also supports mobile devices.",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "pub": "npm publish --registry=http://nexus.skyunion.net/repository/npm-internal-sdk-hosted/",
     "preview": "vite preview"
   },
   "repository": {
